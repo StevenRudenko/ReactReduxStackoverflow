@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/rude/.platformio/penv/bin:/Users/rude/.gem/ruby/2.0.0/bin:/Users/rude/.gem/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/rude/Library/Android/sdk/tools:/Users/rude/Library/Android/sdk/platform-tools:/Users/rude/Library/Android/sdk/ndk-bundle:/Users/rude/.platformio/penv/bin"
+    }
+}
