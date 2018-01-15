@@ -20,7 +20,8 @@ There is an issue at [react-native-vector-icons](https://github.com/oblador/reac
 
 ## Improvements
 1. Extract string resources into the separate class to be able to perform localization easily.
-2. Write tests.
+2. Add persistance for offline work.
+3. Write tests.
 
 -------------------------------------------------------------------------------
 
