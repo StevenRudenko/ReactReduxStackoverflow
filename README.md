@@ -8,7 +8,7 @@ The application contains three main parts:
 2. Actions and reducers are used to simulate login and call StackOverflow API.
 3.  Containers are actual screens user interacts with.
 
-## Known issue
+## Known issue with ReactNative 0.52.0
 At first start you may get error:
 ```
 error: bundling failed: Error: While resolving module `react-native-vector-icons/MaterialIcons`,
