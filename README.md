@@ -8,6 +8,16 @@ The application contains three main parts:
 2. Actions and reducers are used to simulate login and call StackOverflow API.
 3.  Containers are actual screens user interacts with.
 
+## Known issue
+At first start you may get error:
+```
+error: bundling failed: Error: While resolving module `react-native-vector-icons/MaterialIcons`,
+the Haste package `react-native-vector-icons` was found. However the module `MaterialIcons` could
+not be found within the package. Indeed, none of these files exist:
+```
+
+There is an issue at [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons/issues/626) with simple workaround. Call shell command from root directory of the project: **`rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json`**. After that you may start application without problem.
+
 ## Improvements
 1. Extract string resources into the separate class to be able to perform localization easily.
 2. Write tests.
