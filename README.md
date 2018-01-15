@@ -1,4 +1,4 @@
-StackOverflow
+ReactReduxStackoverflow
 ===================
 A simple application to demonstrate Redux usage within ReactNative development.
 
